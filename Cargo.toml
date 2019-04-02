@@ -1,0 +1,6 @@
+[package]
+name = "hashq"
+version = "0.1.0"
+authors = ["Gokul TP <tp.gokul@gmail.com>"]
+
+[dependencies]
