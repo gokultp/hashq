@@ -13,7 +13,7 @@ struct Job {
 
 impl StorageEngine {
     pub  fn from_path(path :String)->StorageEngine{
-        let mut last_job = 0;
+        let last_job = 0;
         if !Path::new(&path).exists(){
             init_storage(&path)
         }
